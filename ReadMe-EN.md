@@ -56,7 +56,7 @@ Here is the list of radios with which I could test the game:
 
 For the configuration, open the menu of the drone. Go to the submenu 'Gamepad'.
 
-Activate 'direct imput' if you have a radio controller otherwise deactivate it to use a gamepad like xbox360.
+Activate 'direct input' if you have a radio controller otherwise deactivate it to use a gamepad like xbox360.
 
 Change the value of the sticks in order to affect correctly the throttle, pitch, yaw and roll. You can use the gauges to detect the index of the stick you are touching.
 
