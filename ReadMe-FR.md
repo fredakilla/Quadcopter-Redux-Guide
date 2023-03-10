@@ -3,6 +3,9 @@
 
 Voici un guide pratique pour utiliser le simulateur de drone FPV Quadcopter-Redux sur GTA V.
 
+![ScreenShot](https://github.com/fredakilla/Quadcopter-Redux-Guide/blob/main/img/Quadcopter-Redux.jpg)
+
+
 ## installation
 
 - Il faut bien sûr avoir le jeu GTA V (peu importe la provenance steam, epic store ou autres...)
@@ -72,6 +75,8 @@ Et faites la même chose si vous voulez binder des boutons, comme par exemple l'
 
 Vous pourrez aussi ajuster la précision des sticks depuis ce menu ou ajouter de la deadband.
 
+![ScreenShot](https://github.com/fredakilla/Quadcopter-Redux-Guide/blob/main/img/Gamepad.jpg)
+
 
 ## Configuration des rates
 
@@ -80,6 +85,8 @@ Les modes supportés sont Actual, Betaflight, Kiss et Raceflight.
 
 Il est possible d'utiliser jusqu'à 3 slots pour enregistrer différentes configurations de rates.
 
+
+![ScreenShot](https://github.com/fredakilla/Quadcopter-Redux-Guide/blob/main/img/Rates.jpg)
 
 ## Configuration du drone
 
@@ -94,6 +101,7 @@ Pour configurer votre drone, vous pouvez procéder ainsi :
 - Régler ensuite la force de la poussée des moteurs en testant l'accélération et la vitesse de pointe pour essayer de retrouver les même sensation qu'avec votre drone en réel.
 - Ajuster ensuite les autres facteurs tels que la gravité, le coef de trainée ou de résistance de l'air, ainsi que les damping linéaire au feeling pour ajuster vos sensations.
 
+![ScreenShot](https://github.com/fredakilla/Quadcopter-Redux-Guide/blob/main/img/Physx.jpg)
 
 ## Contenu additionnel
 
@@ -101,4 +109,8 @@ La communauté de modding autour de GTA est énorme et de nombreux mods ont ét�
 
 Voici une petite liste de mods que je recommande :
 
-(liste à venir...)
+Native Trainer (founi avec ScriptHookV) : vous permet tout un tas de chose (téléportaion, changer la méteo, l'heure, etc...)   
+[Map Editor](https://www.gta5-mods.com/scripts/map-editor) : Un editeur de carte créer vos propres parcours ou circuits de courses.   
+[Forests of San Andreas](https://www.gta5-mods.com/maps/forests-of-san-andreas-revised) : Améliore grandement la densité et la varieté des arbres pour de belles ballades en forêts.   
+[GTA V Remastered: Enhanced](https://www.gta5-mods.com/maps/gta-v-remastered-enhanced) : Améliore certaines parties de la carte en ajoutant plus de détails.   
+
