@@ -1,7 +1,11 @@
 # Guide for Quadcopter-Redux
+
 Here is a practical guide to use the FPV Quadcopter-Redux drone simulator on GTA V.
 
+![ScreenShot](https://github.com/fredakilla/Quadcopter-Redux-Guide/blob/main/img/Quadcopter-Redux.jpg)
+
 ## Installation
+
 - Of course, you need to have the GTA V game (no matter where it comes from: steam, epic store or others...)   
 - ScriptHookV : A library that allows to interface with GTA to create mods.   
 - ScriptHookVDotNet : An extension of the previous library to use the .NET technology   
@@ -64,10 +68,14 @@ And do the same if you want to bind buttons, like for example the engine arming,
 
 You can also adjust the precision of the sticks from this menu or add deadband.
 
+![ScreenShot](https://github.com/fredakilla/Quadcopter-Redux-Guide/blob/main/img/Gamepad.jpg)
+
 ## Rates Configuration
 The 'controller' menu allows you to define your rates to obtain the desired rotation speed. The supported modes are Actual, Betaflight, Kiss and Raceflight.
 
 It is possible to use up to 3 slots to save different rate configurations.
+
+![ScreenShot](https://github.com/fredakilla/Quadcopter-Redux-Guide/blob/main/img/Rates.jpg)
 
 ## Drone configuration
 Go to the 'Physx' menu to adjust the flight behavior.
@@ -81,9 +89,14 @@ Then the weight of the drone (in Kg)
 Then adjust the thrust force of the motors by testing the acceleration and the top speed to try to find the same feeling as with your real drone.
 Then adjust the other factors such as gravity, drag coef or air resistance, as well as linear damping to the feeling to adjust your sensations.
 
+![ScreenShot](https://github.com/fredakilla/Quadcopter-Redux-Guide/blob/main/img/Physx.jpg)
 
 ## Additional content
 The modding community around GTA is huge and many mods have been made. You can enrich your experience with this simulator even more by adding additional mods.
 
 Here is a small list of mods that I recommend:   
-(List to come...)
+
+Native Trainer (provided with ScriptHookV) : allows you to do a lot of things (teleportation, change weather, time, etc...)   
+[Map Editor](https://www.gta5-mods.com/scripts/map-editor) : A map editor to create your own courses or race tracks.   
+[Forests of San Andreas](https://www.gta5-mods.com/maps/forests-of-san-andreas-revised) : Greatly improves the density and variety of trees for beautiful forest walks.    
+[GTA V Remastered: Enhanced](https://www.gta5-mods.com/maps/gta-v-remastered-enhanced) : Enhances some parts of the map by adding more detail.  
