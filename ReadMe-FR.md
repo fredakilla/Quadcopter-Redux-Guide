@@ -35,7 +35,7 @@ Une fois en jeu vous pouvez utiliser sur les touches suivantes :
 
 ## Première installation
 
-Si vous installez pour la toute première fois GTA V et que vous lancer le jeu, il vous faudra compléter l'intro qui dure une quinzaine de minutes et qui vous plonge dans l'univers du jeu mais sur une petite map pour vous apprendre à jouer. Une fois passez cette intro vous aurez un accès total à énorme map de GTA et vous pourrez utiliser le simu sans aucune contrainte.
+Si vous installez pour la toute première fois GTA V et que vous lancer le jeu, il vous faudra compléter l'intro qui dure une quinzaine de minutes et qui vous plonge dans l'univers du jeu mais sur une petite map pour vous apprendre à jouer. Une fois passée cette intro vous aurez un accès total à énorme map de GTA et vous pourrez utiliser le simu sans aucune contrainte.
 
 Mais rassurez vous vous n'êtes pas du tout obligé de passer par cette intro ni même de faire les missions de GTA si vous voulez utiliser exclusivement ce jeu en mode simulateur de drone FPV avec Quadcopter-Redux.
 
@@ -49,9 +49,9 @@ Installer la sauvegarde sur votre pc à l'emplacement indiqué sur la page de de
 
 ## Configuration du controller
 
-Il est hautement recommandé d'utiliser un vrai radio-controller de drone FPV pour piloter avec précision le drone dans le simulateur et retrouver les memes sensations et la précision qu'en réel. 
+Il est hautement recommandé d'utiliser un vrai radio-controller de drone FPV pour piloter avec précision le drone dans le simulateur et retrouver les mêmes sensations et la précision qu'en réel. 
 
-Si vous n'avez pas de radio, il est toutefois possible d'utiliser un gamepad type xbox360 pour s'initier ou tester ce mod mais ce n'est vraiment pas recommandé car vous risquez de prendre de mauvais reflexes avec ce genre de manette qui n'est pas assez précise ni adapter pour piloter un drone, notamment pour le stick des gaz dont le ressort est désactivé sur une vrai radio.
+Si vous n'avez pas de radio, il est toutefois possible d'utiliser un gamepad type xbox360 pour s'initier ou tester ce mod mais ce n'est vraiment pas recommandé car vous risquez de prendre de mauvais reflexes avec ce genre de manette qui n'est pas assez précise ni adaptée pour piloter un drone, notamment pour le stick des gaz dont le ressort est désactivé sur une vrai radio.
 
 La plupart des radiocontroller devrait être automatiquement détectée.
 
@@ -64,9 +64,9 @@ Voici la liste des radio avec lesquelles j'ai pu testé le jeu :
 Pour la configuration, ouvrez le menu du drone.
 Aller dans le sous-menu '*Gamepad*'.
 
-Activer 'direct imput' si vous avez un radio controller sinon désactiver le pour utiliser un gamepad style xbox360.
+Activer 'direct input' si vous avez un radio controller sinon désactiver le pour utiliser un gamepad style xbox360.
 
-Changer la valeurs des sticks afin d'affecter correctement le throttle, pitch, yaw et roll. VOus pouvez vous aider des jauges afin de détecter l'index du stick que vous etes en train de toucher.
+Changer la valeur des sticks afin d'affecter correctement le throttle, pitch, yaw et roll. Vous pouvez vous aider des jauges afin de détecter l'index du stick que vous etes en train de toucher.
 
 Et faites la même chose si vous voulez binder des boutons, comme par exemple l'armement des moteurs, la touche unstuck, ou le bouton fire...
 
@@ -85,7 +85,7 @@ Il est possible d'utiliser jusqu'à 3 slots pour enregistrer différentes config
 
 Aller dans le menu '*Physx*' pour ajuster le comportement de vol.
 
-Vous pouvez définir plusieurs slots pour enregistrer différentes configuration pour représenter différents type de drone.
+Vous pouvez définir plusieurs slots pour enregistrer différentes configurations pour représenter différents type de drone.
 
 Pour configurer votre drone, vous pouvez procéder ainsi :
 
