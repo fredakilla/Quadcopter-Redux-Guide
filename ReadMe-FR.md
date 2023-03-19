@@ -34,6 +34,8 @@ Une fois en jeu vous pouvez utiliser sur les touches suivantes :
 - R : Pour reset le drone si vous êtes coincé
 - C : pour changer la caméra
 - F : pour basculer entre le mode de vol acro ou angle
+- X : Abandonner la mission
+- B : Relancer la dernière mission
 
 
 ## Première installation
