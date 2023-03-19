@@ -30,6 +30,8 @@ Launch GTA in story mode, the simu will be automatically detected. Once in game 
 - R : To reset the drone if you are stuck
 - C : to change the camera
 - F : to switch between acro or angle flight mode
+- X : Abort mission
+- B : Restart last mission
 
 
 ## First time installation
