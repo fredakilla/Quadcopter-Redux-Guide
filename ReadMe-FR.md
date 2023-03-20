@@ -53,7 +53,8 @@ Installer la sauvegarde sur votre pc à l'emplacement indiqué sur la page de de
 
 ## Utilisation du menu
 
-Par defaut la touche pour afficher le menu est F9. Il est possible de changer cette touche en editant le fichier "Quadcopter.json" dans le dossier Quadcopter.   
+Par defaut la touche pour afficher le menu est F9.    
+Il est possible de changer cette touche en editant le fichier "Quadcopter.json" dans le dossier Quadcopter.   
 Utiliser les fleches du clavier pour la navigation et backspace pour revenir en arriere. Appuyez sur F9 pour ouvrir/fermer le menu.   
 Astuce : utilisez la touche shift pour changer plus rapidement les valeurs numériques.   
 
