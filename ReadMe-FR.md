@@ -51,6 +51,12 @@ https://fr.gta5-mods.com/misc/100-game-save-for-1-7
 
 Installer la sauvegarde sur votre pc à l'emplacement indiqué sur la page de description et relancer le jeu, vous pourrez ainsi directement utiliser Quadcopter-Redux sans passer par l'intro et vous serez propulsé à la fin du jeu avec toutes les missions déjà complétées.
 
+## Utilisation du menu
+
+Par defaut la touche pour afficher le menu est F9. Il est possible de changer cette touche en editant le fichier "Quadcopter.json" dans le dossier Quadcopter.   
+Utiliser les fleches du clavier pour la navigation et backspace pour revenir en arriere. Appuyez sur F9 pour ouvrir/fermer le menu.   
+Astuce : utilisez la touche shift pour changer plus rapidement les valeurs numériques.   
+
 
 ## Configuration du controller
 
