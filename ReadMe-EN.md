@@ -102,3 +102,4 @@ Native Trainer (provided with ScriptHookV) : allows you to do a lot of things (t
 [Map Editor](https://www.gta5-mods.com/scripts/map-editor) : A map editor to create your own courses or race tracks.   
 [Forests of San Andreas](https://www.gta5-mods.com/maps/forests-of-san-andreas-revised) : Greatly improves the density and variety of trees for beautiful forest walks.    
 [GTA V Remastered: Enhanced](https://www.gta5-mods.com/maps/gta-v-remastered-enhanced) : Enhances some parts of the map by adding more detail.  
+[QuantV](https://www.gtainside.com/en/gta5/mods/119996-quantv-2-1-4) : Redesign and overall improvement of GTA graphics, lighting and weather effects.   
