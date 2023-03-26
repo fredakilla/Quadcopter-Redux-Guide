@@ -123,6 +123,8 @@ Les 3 valeurs damping linear permettent d'une certaine facon de créér égaleme
 
 Il est possible de mettre à 0 ces 3 valeurs du damping lineaaire et ne jouer qu'avec l'air density et le drag coef pour obtenir une force de resistance suffisante tout comme il est possible de mettre à 0 l'air density et le drag factor pour ne jouer qu'avec les damping lineaire pour obtenir cette force de resistance, ces 2 aspects étant assez similaires mais avec quelques différence subtiles. Et il est possible de jouer avec tous ces parametres ensemble pour ajuster encore plus finement la réaction du drone.  
 
+La différence reside aussi dans le fait que le damping lineaire est géré en interne par le moteur physique de GTA alors que l'Air density et le drag coef sont des forces ajoutés et gérés par le mod Quadcopter par dessus la couche du moteur physique de GTA.   
+
 
 ## Contenu additionnel
 
