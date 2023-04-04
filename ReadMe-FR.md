@@ -14,7 +14,7 @@ Voici un guide pratique pour utiliser le simulateur de drone FPV Quadcopter-Redu
 - Quadcopter-Redux : Le mod qui contient le simulateur.
 
 Voici les liens vers les fichiers à installer (prenez les dernières versions pour chacun) :   
-http://www.dev-c.com/gtav/scripthookv/   
+http://www.dev-c.com/gtav/scripthookv/ ou sur ce mirroir https://www.gta5-mods.com/tools/script-hook-v   
 https://github.com/crosire/scripthookvdotnet/releases   
 https://www.gta5-mods.com/scripts/quadcopter-redux   
 
