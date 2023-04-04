@@ -12,11 +12,41 @@ Here is a practical guide to use the FPV Quadcopter-Redux drone simulator on GTA
 - Quadcopter-Redux : The mod that contains the simulator.   
 
 Here are the links to the files to install (take the latest versions for each) :   
-http://www.dev-c.com/gtav/scripthookv/   
+http://www.dev-c.com/gtav/scripthookv/ or mirror https://www.gta5-mods.com/tools/script-hook-v   
 https://github.com/crosire/scripthookvdotnet/releases   
 https://www.gta5-mods.com/scripts/quadcopter-redux  
 
 You just have to unzip all these files in the GTA game installation directory, and that's it.
+
+Make sure the files are in the right place.   
+For the ScriptHookV zip archive, it is the content of the bin folder that you have to put in the root of the game.   
+Here is for example what you should normally find in the root of the GTA game:   
+
+```
+E:\SteamLibrary\steamapps\common\Grand Theft Auto V\  
+
+// ScriptHookV files :
+dinput8.dll
+NativeTrainer.asi
+ScriptHookV.dll
+
+// ScriptHookVDotNet files :
+ScriptHookVDotNet.asi
+ScriptHookVDotNet.ini
+ScriptHookVDotNet2.dll
+ScriptHookVDotNet2.xml
+ScriptHookVDotNet3.dll
+ScriptHookVDotNet3.xml
+
+// Quadcopter-Redux files :
+soft_oal.dll
+scripts\Quadcopter\img\
+scripts\Quadcopter\sounds\
+scripts\Quadcopter\GTA5-Quadcopter.dll
+scripts\Quadcopter\Changelog.txt
+```
+
+And if you press F4 in game you should acces to the ScriptHookV menu, this means that it is correctly installed.
 
 **Important note:** The use of mods for GTA V is not officially recognized nor encouraged by the publisher Rockstar, however this practice is tolerated as long as it remains for offline mode content (so for the story in single player mode). If you plan to play GTA online, it is recommended to remove the mods to avoid being banned from the online mode and avoid cheating.
 
