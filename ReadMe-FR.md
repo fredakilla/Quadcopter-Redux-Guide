@@ -18,7 +18,37 @@ http://www.dev-c.com/gtav/scripthookv/
 https://github.com/crosire/scripthookvdotnet/releases   
 https://www.gta5-mods.com/scripts/quadcopter-redux   
 
-Il suffit de dézipper tout ces fichiers dans le répertoire d'installation du jeu GTA, et voilà.
+Il suffit de dézipper tout ces fichiers dans le répertoire d'installation du jeu GTA, et voilà.   
+
+Assurez-vous que les fichiers sont au bon endroit.   
+Pour l'archive zip ScriptHookV, c'est le contenu du dossier bin que vous devez placer à la racine du jeu.   
+Voici par exemple ce que vous devriez normalement trouver à la racine du jeu GTA :   
+
+```
+E:\SteamLibrary\steamapps\common\Grand Theft Auto V\  
+
+// ScriptHookV files :
+dinput8.dll
+NativeTrainer.asi
+ScriptHookV.dll
+
+// ScriptHookVDotNet files :
+ScriptHookVDotNet.asi
+ScriptHookVDotNet.ini
+ScriptHookVDotNet2.dll
+ScriptHookVDotNet2.xml
+ScriptHookVDotNet3.dll
+ScriptHookVDotNet3.xml
+
+// Quadcopter-Redux files :
+soft_oal.dll
+scripts\Quadcopter\img\
+scripts\Quadcopter\sounds\
+scripts\Quadcopter\GTA5-Quadcopter.dll
+scripts\Quadcopter\Changelog.txt
+```
+
+Astuce : Si vous appuyez sur F4 dans le jeu, vous devriez accéder au menu ScriptHookV, ce qui signifie que cette librairie est correctement installée.   
 
 **Note importante** : L'utilisation de mod pour GTA V n'est pas officiellement reconnue ni encouragée par l'editeur Rockstar, toutefois cette pratique est toléré tant que cela reste pour du contenu en mode offline (donc pour l'histoire en mode solo). Si vous comptez jouer en mode online à GTA il est donc recommandé de supprimer les mods pour éviter de vous faire bannir du mode online et éviter les tricheries.
 
