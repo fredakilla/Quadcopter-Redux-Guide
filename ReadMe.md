@@ -48,7 +48,19 @@ scripts\Quadcopter\Changelog.txt
 
 And if you press F4 in game you should acces to the ScriptHookV menu, this means that it is correctly installed.
 
-**Important note:** The use of mods for GTA V is not officially recognized nor encouraged by the publisher Rockstar, however this practice is tolerated as long as it remains for offline mode content (so for the story in single player mode). If you plan to play GTA online, it is recommended to remove the mods to avoid being banned from the online mode and avoid cheating.
+```diff
+! Possible issue
+Nothing when pressing 'G' ?
+If you see the "quadcopter-redux loaded" message in the upper-left corner when entering the game, everything is ok.
+But on some systems there is a permission access issue because the GTA folder can be read-only and ScriptHookV and
+Quadcopter-Redux at startup try to write their settings or log files if they doesn't exists yet in this folder.   
+Try going into the security of the GTA folder and give it write access.
+
+(The Steam version should fix this but I know that this problem can be encountered on the versions coming from the 
+Rockstar Games Launcher, I have no feedback yet on the Epic store versions)
+```
+
+**Important note:** The use of mods for GTA V is not officially recognized nor encouraged by the publisher Rockstar, however this practice is tolerated as long as it remains for offline mode content (so for the story in single player mode). If you plan to play GTA online, it is recommended to remove the mods anyway ScriptHookV will prevent you from playing in online mode to avoid being banned and cheating.
 
 ## Launching the simulator
 Launch GTA in story mode, the simu will be automatically detected. Once in game you can use the following keys:
