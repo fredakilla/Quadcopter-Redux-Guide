@@ -110,8 +110,6 @@ Change the value of the sticks in order to affect correctly the throttle, pitch,
 
 And do the same if you want to bind buttons, like for example the engine arming, the unstuck button, or the fire button...
 
-You can also adjust the precision of the sticks from this menu or add deadband.
-
 ![ScreenShot](https://github.com/fredakilla/Quadcopter-Redux-Guide/blob/main/img/Controller.jpg)
 
 It's also recommended to run a stick calibration, press calibration menu item and move you stick in all directions up to the limits, press calibration menu item to finish.   
