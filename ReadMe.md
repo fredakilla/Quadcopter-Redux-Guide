@@ -120,7 +120,7 @@ The 'controller' menu allows you to define your rates to obtain the desired rota
 
 It is possible to use up to 3 slots to save different rate configurations.
 
-![ScreenShot](https://github.com/fredakilla/Quadcopter-Redux-Guide/blob/main/img/Rates.jpg)
+![ScreenShot](https://github.com/fredakilla/Quadcopter-Redux-Guide/blob/main/img/Rates2.jpg)
 
 ## Drone configuration
 Go to the 'Drone Presets' menu to configure your drone.
