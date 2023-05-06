@@ -65,15 +65,15 @@ Rockstar Games Launcher, I have no feedback yet on the Epic store versions)
 ## Launching the simulator
 Launch GTA in story mode, the simu will be automatically detected. Once in game you can use the following keys:
 
-- G : To switch to drone mode
-- H : To stop flying and return to the character
-- F9 : to open the simulator menu (when you are in drone mode)
-- PageUp / PageDown : for the tilt camera
-- R : To reset the drone if you are stuck
-- C : to change the camera
+- G : To switch to drone/player mode
+- H : To stop flying and teleport player to the drone position
+- F9 : to open the simulator menu (only when you are in drone mode)
+- PageUp / PageDown : camera tilt
+- R : To reset the drone, if you are stuck
+- C : to change the camera view
 - F : to switch between acro or angle flight mode
-- X : Abort mission
-- B : Restart last mission
+- X : Abort mission (for active events)
+- B : Restart last mission (for active events)
 
 
 ## First time installation
@@ -95,24 +95,26 @@ If you don't have a radio, it's possible to use a gamepad like xbox360 to learn 
 
 Most radio controllers should be automatically detected.
 
-Here is the list of radios with which I could test the game:
+here is a list of radios known to work with this mod:
 
 - TBS tango 2
 - DJI FPV controller 2 (the one of the avata and the DJI FPV)
 - BetaFPV LiteRadio 2 SE
-- Radiomaster TX12
+- Radiomaster TX12 / TX16
 
 For the configuration, open the menu of the drone. Go to the submenu 'Gamepad'.
 
 Activate 'direct input' if you have a radio controller otherwise deactivate it to use a gamepad like xbox360.
 
-Change the value of the sticks in order to affect correctly the throttle, pitch, yaw and roll. You can use the gauges to detect the index of the stick you are touching.
+Change the value of the sticks in order to affect correctly the throttle, pitch, yaw and roll. You can use the gauges and the text indicator to detect the index of the stick you are touching.
 
 And do the same if you want to bind buttons, like for example the engine arming, the unstuck button, or the fire button...
 
 You can also adjust the precision of the sticks from this menu or add deadband.
 
 ![ScreenShot](https://github.com/fredakilla/Quadcopter-Redux-Guide/blob/main/img/Gamepad.jpg)
+
+It's recommended to run a stick calibration. Move you stick in all directions up to the limits.  
 
 ## Rates Configuration
 The 'controller' menu allows you to define your rates to obtain the desired rotation speed. The supported modes are Actual, Betaflight, Kiss and Raceflight.
