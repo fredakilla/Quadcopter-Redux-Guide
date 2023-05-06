@@ -70,7 +70,7 @@ Une fois en jeu vous pouvez utiliser sur les touches suivantes :
 
 - G : Pour basculer en mode drone/joueur
 - H : Pour arrêter de voler et téléporter le joueur sur la position du drone
-- F9 : pour ouvrir le menu du simulateur (quand vous êtes en mode drone)
+- F10 : pour ouvrir le menu du simulateur (quand vous êtes en mode drone)
 - PageUp / PageDown : pour le tilt camera
 - R : Pour reset le drone si vous êtes coincé
 - C : pour changer la vue de la caméra
