@@ -128,7 +128,7 @@ Go to the 'Drone Presets' menu to configure your drone.
 You can create many different presets to represent different types of drone.   
 Drone presets are saved as .txt files in the scripts\Quadcopter\drone_presets directory.   
 
-![ScreenShot](https://github.com/fredakilla/Quadcopter-Redux-Guide/blob/main/img/DronePresets.jpg)
+![ScreenShot](https://github.com/fredakilla/Quadcopter-Redux-Guide/blob/main/img/DronePreset.jpg)
 
 
 ## Additional content
