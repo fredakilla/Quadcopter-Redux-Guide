@@ -50,6 +50,17 @@ scripts\Quadcopter\Changelog.txt
 
 Astuce : Si vous appuyez sur F4 dans le jeu, vous devriez accéder au menu ScriptHookV, ce qui signifie que cette librairie est correctement installée.   
 
+```diff
+! Problème potentiel
+Rien ne se passe lorsque l'on appuie sur 'G' ?
+Si vous voyez le message "quadcopter-redux loaded" dans le coin supérieur gauche en entrant dans le jeu, tout va bien.
+Mais sur certains systèmes, il y a un problème de droits d'accès car le dossier GTA peut être en lecture seule et ScriptHookV et
+Quadcopter-Redux au démarrage essaient d'écrire leurs paramètres ou leurs fichiers journaux s'ils n'existent pas encore dans ce dossier.   
+Essayez d'aller dans la sécurité du dossier GTA et donnez-lui un accès en écriture.
+
+(La version Steam ne devrait pas etre concernée par ce problème mais j'ai eu un retour de ce probleme rencontré sur une versions du jeu provenant du Launcher de Rockstar Games. 
+```
+
 **Note importante** : L'utilisation de mod pour GTA V n'est pas officiellement reconnue ni encouragée par l'editeur Rockstar, toutefois cette pratique est toléré tant que cela reste pour du contenu en mode offline (donc pour l'histoire en mode solo). Si vous comptez jouer en mode online à GTA il est donc recommandé de supprimer les mods pour éviter de vous faire bannir du mode online et éviter les tricheries.
 
 ## Lancement du simulateur
@@ -57,12 +68,12 @@ Astuce : Si vous appuyez sur F4 dans le jeu, vous devriez accéder au menu Scrip
 Lancer GTA en mode histoire, le simu sera automatiquement détecté.
 Une fois en jeu vous pouvez utiliser sur les touches suivantes :
 
-- G : Pour basculer en mode drone
-- H : Pour arrêter de voler et retourner au personnage
+- G : Pour basculer en mode drone/joueur
+- H : Pour arrêter de voler et téléporter le joueur sur la position du drone
 - F9 : pour ouvrir le menu du simulateur (quand vous êtes en mode drone)
 - PageUp / PageDown : pour le tilt camera
 - R : Pour reset le drone si vous êtes coincé
-- C : pour changer la caméra
+- C : pour changer la vue de la caméra
 - F : pour basculer entre le mode de vol acro ou angle
 - X : Abandonner la mission
 - B : Relancer la dernière mission
@@ -101,20 +112,20 @@ Voici la liste des radiocommandes avec lesquelles j'ai pu testé le jeu sans sou
 - TBS tango 2
 - DJI FPV controller 2 (celle de l'avata et du DJI FPV)
 - BetaFPV LiteRadio 2 SE
-- Radiomaster TX12
+- Radiomaster TX12/TX16
 
 Pour la configuration de la radiocommande, ouvrez le menu du drone.
-Aller dans le sous-menu '*Gamepad*'.
+Aller dans le sous-menu '*Controller*'.
 
 Activer l'option 'direct input' si vous avez une radiocommande ou sinon désactiver la pour utiliser un gamepad style xbox360.
 
-Changer la valeur des sticks afin d'assigner correctement le throttle, pitch, yaw et roll. Vous pouvez vous aider des jauges afin de détecter l'index des stick que vous etes en train de toucher.
+Changer la valeur des sticks afin d'assigner correctement le throttle, pitch, yaw et roll. Vous pouvez vous aider des jauges et des indications afin de détecter l'index des stick que vous etes en train de toucher.
 
 Et faites la même chose si vous voulez binder des boutons, comme par exemple l'armement des moteurs, la touche unstuck, ou le bouton fire...
 
 Vous pourrez aussi ajuster la précision des sticks depuis ce menu ou ajouter de la deadband.
 
-![ScreenShot](https://github.com/fredakilla/Quadcopter-Redux-Guide/blob/main/img/Gamepad.jpg)
+![ScreenShot](https://github.com/fredakilla/Quadcopter-Redux-Guide/blob/main/img/Controller.jpg)
 
 
 ## Configuration des rates
@@ -125,35 +136,18 @@ Les modes supportés sont Actual, Betaflight, Kiss et Raceflight.
 Il est possible d'utiliser jusqu'à 3 slots pour enregistrer différentes configurations de rates.
 
 
-![ScreenShot](https://github.com/fredakilla/Quadcopter-Redux-Guide/blob/main/img/Rates.jpg)
+![ScreenShot](https://github.com/fredakilla/Quadcopter-Redux-Guide/blob/main/img/Rates2.jpg)
 
 ## Configuration du drone
 
-Aller dans le menu '*Physx*' pour ajuster le comportement de vol.
+Aller dans le menu '*Drone Presets*' pour configurer vos drones.
 
-Vous pouvez définir plusieurs slots pour sauvegarder différentes configurations pour représenter différents type de drone.
+Vous pouvez créer autant de presets que vous desirez pour représenter différents types de drones.   
+Les presets des drones sont enregistrés sous forme de fichiers .txt dans le répertoire scripts\Quadcopter\drone_presets.
 
 Pour configurer votre drone, vous pouvez procéder ainsi :
 
-- Commencer par définir la taille des hélices (en pouces)
-- Ensuite la masse du drone (en Kg)
-- Définisser la vitesse maximum du drone (en metres / seconde)
-- Régler ensuite la force de la poussée des moteurs en testant l'accélération et la vitesse de pointe pour essayer de retrouver les même sensation qu'avec votre drone en réel.
-- Ajuster ensuite les autres facteurs tels que la gravité, le coef de trainée ou de résistance de l'air, ainsi que les damping linéaire au feeling pour ajuster vos sensations.
-
-![ScreenShot](https://github.com/fredakilla/Quadcopter-Redux-Guide/blob/main/img/Physx.jpg)
-
-Notes sur la physique :   
-
-La taille des hélices influe sur la force de poussée des moteurs ainsi que la portance du drone.  
-
-Air density et drag coef permettent de simuler la densité de l'air et de créer une force de resistance qui s'oppose aux mouvements du drone. Plus cette force est élevé plus le drone sera freiné, il aura moins d'inertie, il "glisserra" moins. Evitez des valeurs trop élévés sinon vous aurez l'impression de voler dans un fluide très épais ou dense.   
-
-Les 3 valeurs damping linear permettent d'une certaine facon de créér également une force de résistance opposée, comme un amortissement aux autre forces du drone comme la poussé ou la gravité. "Damping Linear C" influe faiblement, "Damping Linear V" modérément et "Damping Linear V2" agit tres fortement et est donc très sensible restez aux alentour des 0.005. Ces 3 facteurs agissant chacun de façon complémentaire sur la physique du drone. Mettez a 0 ces valeurs et le drone "glissera" dans l'air sans aucune resistance.   
-
-Il est possible de mettre à 0 ces 3 valeurs du damping lineaaire et ne jouer qu'avec l'air density et le drag coef pour obtenir une force de resistance suffisante tout comme il est possible de mettre à 0 l'air density et le drag factor pour ne jouer qu'avec les damping lineaire pour obtenir cette force de resistance, ces 2 aspects étant assez similaires mais avec quelques différence subtiles. Et il est possible de jouer avec tous ces parametres ensemble pour ajuster encore plus finement la réaction du drone.  
-
-La différence reside aussi dans le fait que le damping lineaire est géré en interne par le moteur physique de GTA alors que l'Air density et le drag coef sont des forces ajoutés et gérés par le mod Quadcopter par dessus la couche du moteur physique de GTA.   
+![ScreenShot](https://github.com/fredakilla/Quadcopter-Redux-Guide/blob/main/img/DronePreset.jpg)
 
 
 ## Contenu additionnel
@@ -164,7 +158,7 @@ Vous pouvez ainsi enrichir encore plus votre expérience avec ce simulateur en a
 Voici une petite liste de mods que je recommande :
 
 Native Trainer (founi avec ScriptHookV) : vous permet tout un tas de chose (téléportaion, changer la méteo, l'heure, etc...)   
-[Map Editor](https://www.gta5-mods.com/scripts/map-editor) : Un editeur de carte créer vos propres parcours ou circuits de courses.   
+[Menyoo](https://www.gta5-mods.com/scripts/menyoo-pc-sp) : Un trainer multifonctions et un editeur de niveau créer vos propres parcours ou circuits de courses.   
 [Forests of San Andreas](https://www.gta5-mods.com/maps/forests-of-san-andreas-revised) : Améliore grandement la densité et la varieté des arbres pour de belles ballades en forêts.   
 [GTA V Remastered: Enhanced](https://www.gta5-mods.com/maps/gta-v-remastered-enhanced) : Améliore certaines parties de la carte en ajoutant plus de détails.   
 [QuantV](https://www.gtainside.com/en/gta5/mods/119996-quantv-2-1-4) : Refonte et amélioration globale du rendu graphique de GTA, des effets de lumieres et des effets météorologiques.    
