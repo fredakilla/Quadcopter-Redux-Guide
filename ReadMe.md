@@ -123,30 +123,12 @@ It is possible to use up to 3 slots to save different rate configurations.
 ![ScreenShot](https://github.com/fredakilla/Quadcopter-Redux-Guide/blob/main/img/Rates.jpg)
 
 ## Drone configuration
-Go to the 'Physx' menu to adjust the flight behavior.
+Go to the 'Drone Presets' menu to configure your drone.
 
-You can define several slots to save different configurations to represent different types of drone.
+You can create many different presets to represent different types of drone.   
+Drone presets are saved as .txt files in the scripts\Quadcopter\drone_presets directory.   
 
-To configure your drone, you can proceed as follows:
-
-Start by defining the size of the propellers (in inches)
-Then the weight of the drone (in Kg)
-Then adjust the thrust force of the motors by testing the acceleration and the top speed to try to find the same feeling as with your real drone.
-Then adjust the other factors such as gravity, drag coef or air resistance, as well as linear damping to the feeling to adjust your sensations.
-
-![ScreenShot](https://github.com/fredakilla/Quadcopter-Redux-Guide/blob/main/img/Physx.jpg)
-
-Physics Notes:   
-
-Propeller size affects the thrust force of the motors as well as the lift of the drone.  
-
-Air density and drag coef allow to simulate the density of the air and to create a force of resistance which opposes the movements of the drone. The higher this force is, the more the drone will be braked, it will have less inertia, it will "slide" less. Avoid values that are too high otherwise you will have the impression of flying in a very thick or dense fluid.    
-
-The 3 linear damping values allow to create in a way also a resistance force opposite, like a damping to the other forces of the drone like the push or the gravity. "Damping Linear C" has a weak influence, "Damping Linear V" has a moderate influence and "Damping Linear V2" has a very strong influence and is therefore very sensitive, stay around 0.005. These 3 factors act each in a complementary way on the physics of the drone. Set these values to 0 and the drone will "slide" through the air without any resistance.   
-
-It is possible to set to 0 these 3 values of the linear damping and play only with the air density and the drag coef to obtain a sufficient resistance force as it is possible to set to 0 the air density and the drag factor to play only with the linear damping to obtain this resistance force, these 2 aspects being quite similar but with some subtle differences. And it is possible to play with all these parameters together to fine tune the reaction of the drone.   
-
-The difference is also that the lineal damping is managed internally by the GTA physics engine while the air density and drag coef are added forces managed by the Quadcopter mod over the GTA physics engine layer.
+![ScreenShot](https://github.com/fredakilla/Quadcopter-Redux-Guide/blob/main/img/DronePresets.jpg)
 
 
 ## Additional content
@@ -155,7 +137,7 @@ The modding community around GTA is huge and many mods have been made. You can e
 Here is a small list of mods that I recommend:   
 
 Native Trainer (provided with ScriptHookV) : allows you to do a lot of things (teleportation, change weather, time, etc...)   
-[Map Editor](https://www.gta5-mods.com/scripts/map-editor) : A map editor to create your own courses or race tracks.   
+[Menyoo](https://www.gta5-mods.com/scripts/menyoo-pc-sp) : Multi purpose trainer and map editor to create your own courses or race tracks.   
 [Forests of San Andreas](https://www.gta5-mods.com/maps/forests-of-san-andreas-revised) : Greatly improves the density and variety of trees for beautiful forest walks.    
 [GTA V Remastered: Enhanced](https://www.gta5-mods.com/maps/gta-v-remastered-enhanced) : Enhances some parts of the map by adding more detail.  
 [QuantV](https://www.gtainside.com/en/gta5/mods/119996-quantv-2-1-4) : Redesign and overall improvement of GTA graphics, lighting and weather effects.   
