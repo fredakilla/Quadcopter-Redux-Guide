@@ -112,9 +112,9 @@ And do the same if you want to bind buttons, like for example the engine arming,
 
 You can also adjust the precision of the sticks from this menu or add deadband.
 
-![ScreenShot](https://github.com/fredakilla/Quadcopter-Redux-Guide/blob/main/img/Gamepad.jpg)
+![ScreenShot](https://github.com/fredakilla/Quadcopter-Redux-Guide/blob/main/img/Controller.jpg)
 
-It's recommended to run a stick calibration. Move you stick in all directions up to the limits.  
+It's also recommended to run a stick calibration, press calibration menu item and move you stick in all directions up to the limits, press calibration menu item to finish.   
 
 ## Rates Configuration
 The 'controller' menu allows you to define your rates to obtain the desired rotation speed. The supported modes are Actual, Betaflight, Kiss and Raceflight.
