@@ -62,8 +62,8 @@ Rockstar Games Launcher, I have no feedback yet on the Epic store versions)
 
 **Important note:** The use of mods for GTA V is not officially recognized nor encouraged by the publisher Rockstar, however this practice is tolerated as long as it remains for offline mode content (so for the story in single player mode). If you plan to play GTA online, it is recommended to remove the mods anyway ScriptHookV will prevent you from playing in online mode to avoid being banned and cheating.
 
-## Launching the simulator
-Launch GTA in story mode, the simu will be automatically detected. Once in game you can use the following keys:
+## Running the simulator
+Run GTA in story mode, the simulator mod will be automatically detected. Once in game you can use the following keys:
 
 - G : To switch to drone/player mode
 - H : To stop flying and teleport player to the drone position
