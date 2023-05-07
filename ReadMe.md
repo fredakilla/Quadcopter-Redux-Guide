@@ -1,4 +1,4 @@
-# Guide for Quadcopter-Redux
+# Guide for Quadcopter-Redux - FPV Drone Simulator using GTA5 
 
 Here is a practical guide to use the FPV Quadcopter-Redux drone simulator on GTA V.
 
