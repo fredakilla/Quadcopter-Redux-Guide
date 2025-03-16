@@ -13,14 +13,10 @@ Voici un guide pratique pour utiliser le simulateur de drone FPV Quadcopter-Redu
 - ScriptHookVDotNet : Une extension de la précédente librairie pour utiliser la technologie .NET
 - Quadcopter-Redux : Le mod qui contient le simulateur.
 
-La facon la plus facile d'installer tout cela est d'utiliser le package complet disponible sur cette page github dans la section releases, copier le contenu du zip dans le repertoire du jeu GTA et c'est fini:    
-https://github.com/fredakilla/Quadcopter-Redux-Guide/releases
-
-Si vous preferez installer manuellement chaque composant un par un:     
 Voici les liens vers les fichiers à installer (prenez les dernières versions pour chacun) :   
-http://www.dev-c.com/gtav/scripthookv/ ou sur ce mirroir https://www.gta5-mods.com/tools/script-hook-v   
-https://github.com/crosire/scripthookvdotnet/releases   
-https://www.gta5-mods.com/scripts/quadcopter-redux   
+[http://www.dev-c.com/gtav/scripthookv/](https://www.dev-c.com/gtav/scripthookv/)   
+[https://github.com/crosire/scripthookvdotnet/releases](https://github.com/scripthookvdotnet/scripthookvdotnet-nightly/releases/tag/v3.7.0-nightly.20)      
+[https://www.gta5-mods.com/scripts/quadcopter-redux  ](https://fr.gta5-mods.com/scripts/quadcopter-redux)    
 
 Il suffit de dézipper tout ces fichiers dans le répertoire d'installation du jeu GTA, et voilà.   
 
