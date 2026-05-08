@@ -69,7 +69,7 @@ Run GTA in story mode, the simulator mod will be automatically detected. Once in
 
 - G : To switch to drone/player mode
 - H : To stop flying and teleport player to the drone position
-- F10 : to open the simulator menu (only when you are in drone mode)
+- F8 - (F10 on some older version) : to open the simulator menu (only when you are in drone mode)
 - PageUp / PageDown : camera tilt
 - R : To reset the drone, if you are stuck
 - C : to change the camera view
